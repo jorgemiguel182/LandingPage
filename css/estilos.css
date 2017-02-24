@@ -1,0 +1,30 @@
+.logo{
+	max-width: auto;
+	max-height: 64px;
+}
+
+.parallax-container {
+  height: 400px;
+}
+
+.hero {
+	margin: 0 auto;
+	max-width: 110%;
+}
+
+p {
+	text-align: justify;
+	margin: 10px;
+}
+
+.paciente-img {
+	margin: 0 auto;
+	border-radius: 1%;
+
+}
+
+.principal {
+
+}
+
+
