@@ -1,3 +1,14 @@
+.titulo {
+	margin-left: 50%;
+	text-align: center;
+}
+
+.nome-empresa li a{
+	font-style: italic;
+	font-size: 30px;
+	padding-left: 300px;
+}
+
 .logo{
 	max-width: auto;
 	max-height: 64px;
@@ -12,19 +23,74 @@
 	max-width: 110%;
 }
 
+.container-geral {
+	margin-top: 20px;
+}
+
+.conteudo-princ {
+	background-color: #ffffff;
+}
+
+.aside {
+	background-color: #b2ebf2;
+}
+
+.formulario {
+	background-color: #ffffff;
+}
+
+.facebook {
+	margin-top: 20px;
+	max-width: 100%;
+	height: 200px;
+	background-color: #ffffff;
+}
+
+.paciente-img {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 1%;
+}
+
+
+.opcoes {
+	background-color: #00bcd4;
+	opacity: 0.6;
+	max-width: 300px;
+	height: 120px;
+	margin: 150px 3% 0 60%;
+	border-radius: 2%;
+}
+
+.opcoes ul {
+	padding-top: 4%;
+}
+
+.opcoes li {
+
+	text-align: center;
+}
+
+.botao {
+	margin: 0 auto;
+}
+
+.rodape {
+	margin-top: 150px;
+}
+
+body {
+	background-color: #eceff1;
+}
+
+hr {
+	max-width: 85%;
+	color: #ffffff;
+}
+
 p {
 	text-align: justify;
 	margin: 10px;
 }
-
-.paciente-img {
-	margin: 0 auto;
-	border-radius: 1%;
-
-}
-
-.principal {
-
-}
-
 

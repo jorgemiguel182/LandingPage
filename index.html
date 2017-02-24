@@ -23,75 +23,143 @@
 			<div class="navbar-fixed">
 			  <nav>
 				<div class="nav-wrapper cyan darken-1">
-			      <a href="#!" class="brand-logo"><img class="logo" src="media/img/logo.png" alt=""></a>
-			      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			      <ul class="right hide-on-med-and-down">
+
+			      <a href="#!" class="brand-logo barra">
+			       	<img class="logo hide-on-small-only" src="media/img/logo.png" alt="">
+			      	<img class="logo hide-on-med-and-up" style ="max-height: 56px; width: auto;" src="media/img/logo.png" alt="">
+			      </a>
+
+			     <ul class="nome-empresa hide-on-med-and-down">
+			        <li><a href="">Odonto Clínica Ipsum Lorem</a></li>
+			     </ul>
+
+			     <!-- <ul class="side-nav" id="mobile-demo">
 			        <li><a href="sass.html">Sobre</a></li>
 			        <li><a href="badges.html">Contato</a></li>
-			      </ul>
-			      <ul class="side-nav" id="mobile-demo">
-			        <li><a href="sass.html">Sobre</a></li>
-			        <li><a href="badges.html">Contato</a></li>
-			      </ul>
+			      </ul> -->
+
 			    </div>
 			  </nav>
 			</div>
 
-			<div class="container principal">
+			<div class="container principal"> 
 				<div class="hide-on-small-only">
-					<div class="parallax-container hero">
+					<div class="parallax-container hero"> <!-- CONTAINER COM IMAGEM PARALAX -->	
 	        			<div class="parallax"><img class="hero" src="media/img/dentistaHero.jpg"></div>
+					
+						<div class="opcoes z-depth-4">
+							<ul>
+								<li>Profissionais<hr></li>
+								<li>Infraestrutura<hr></li>
+								<li>História</li>
+							</ul>
+						</div>
+
 	    			</div>
 				</div>
-    		</div>	
-
-   			<div class = "hide-on-med-and-up">
-    				<img class="hero" src="media/img/dentistaHero.jpg" alt="">
-    			</div>
-
-			<div class="container">				
-				<div class="row">
-					<div class="col m4">
-						<img class="responsive-img paciente-img z-depth-4" src="media/img/paciente1.jpg" alt="">
-						
-					</div>
-		    		<div class="col m8">
-		    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie vehicula diam, ut maximus erat efficitur quis. Vestibulum rhoncus et leo sit amet cursus. Nam a nunc eu enim efficitur fermentum et vel ante. In euismod porta hendrerit. Praesent sit amet mollis felis, nec auctor tortor. Aliquam risus ipsum, porta a convallis posuere, aliquet quis dolor. Aenean auctor ultricies erat, vel pretium dui. Donec pharetra sed ex in auctor.</p>
-							    			
-		    		</div>
-		    	</div>
-				<div class="row">
-					<div class="col m4">
-						<img class="responsive-img paciente-img z-depth-4" src="media/img/paciente2.jpg" alt="">
-						
-					</div>
-		    		<div class="col m8">
-		    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie vehicula diam, ut maximus erat efficitur quis. Vestibulum rhoncus et leo sit amet cursus. Nam a nunc eu enim efficitur fermentum et vel ante. In euismod porta hendrerit. Praesent sit amet mollis felis, nec auctor tortor.</p>
-							    			
-		    		</div>
-		    	</div>
-				<div class="row">
-					<div class="col m4">
-						<img  id="image-test" class="responsive-img paciente-img z-depth-4" src="media/img/paciente3.jpg" alt="">
-						
-					</div>
-		    		<div class="col m8">
-		    			<p>Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent Sapien in monti palavris qui num significa nadis i pareci latim. Quem num gosta di mé, boa gente num é. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-
-						Casamentiss faiz malandris se pirulitá. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Pra lá , depois divoltis porris, paradis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
-							    			
-		    		</div>
-		    	</div>		    	
-
-		    </div>
-
-
-
-
-
+    		</div>
+    		<div class = "hide-on-med-and-up">
+				<img class="hero" src="media/img/dentistaHero.jpg" alt=""> <!-- IMAGEM PRINCIPAL PARA DISPOSITIVOS MÓVEIS -->	
+			</div>	
 		</div>
-
 	</header><!-- /header -->
+		<div class="row">
+			<div class="container container-geral">
+
+				<div class="col m8"> <!-- CONTEÚDO A ESQUERDA -->	
+
+					<div class="row conteudo-princ">
+						<div class="col m4">
+							<img class="responsive-img paciente-img z-depth-4" src="media/img/paciente3.jpg" alt="">
+						</div>
+			    		<div class="col m8">
+			    			<h3>Profissionais</h3>
+			    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie vehicula diam, ut maximus erat efficitur quis. Vestibulum rhoncus et leo sit amet cursus. Nam a nunc eu enim efficitur fermentum et vel ante. In euismod porta hendrerit. Praesent sit amet mollis felis, nec auctor tortor. Aliquam risus ipsum, porta a convallis posuere, aliquet quis dolor. Aenean auctor ultricies erat, vel pretium dui. Donec pharetra sed ex in auctor.</p>
+			    		</div>
+			    	</div>
+
+					<div class="row conteudo-princ">
+						<div class="col m4">
+							<img class="responsive-img paciente-img z-depth-4" src="media/img/consultorio1.jpg" alt="">
+						</div>
+			    		<div class="col m8">
+			    			<h3>Infraestrutura</h3>
+			    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie vehicula diam, ut maximus erat efficitur quis. Vestibulum rhoncus et leo sit amet cursus. Nam a nunc eu enim efficitur fermentum et vel ante. In euismod porta hendrerit. Praesent sit amet mollis felis, nec auctor tortor.</p>
+			    		</div>
+			    	</div>
+
+					<div class="row conteudo-princ">
+						<div class="col m4">
+							<img class="responsive-img paciente-img z-depth-4" src="media/img/paciente4.jpg" alt="">
+						</div>
+			    		<div class="col m8">
+			    			<h3>História</h3>
+			    			<p>Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent Sapien in monti palavris qui num significa nadis i pareci latim. Quem num gosta di mé, boa gente num é. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+							Casamentiss faiz malandris se pirulitá. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.</p>
+			    		</div>
+			    	</div>
+				</div> <!--	FIM DO CONTEÚDO A ESQUERDA -->	
+
+				<div class="col m3 push-m1 hide-on-small-only aside">
+
+				  <div class="row formulario">
+				  <h4 style="text-align: center;">Deixe seu número</h4>
+				  <h5 style="text-align: center;">Nós te ligamos!</h5>
+				    <form class="col s12">
+				      <div class="row">
+				        <div class="input-field col s12">
+				          <i class="material-icons prefix">account_circle</i>
+				          <input id="icon_prefix" type="text" class="validate">
+				          <label for="icon_prefix">Nome</label>
+				        </div>
+				        <div class="input-field col s12">
+				          <i class="material-icons prefix">phone</i>
+				          <input id="icon_telephone" type="tel" class="validate">
+				          <label for="icon_telephone">Telefone</label>
+				        </div>
+						<button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+							<i class="material-icons right">send</i>
+						</button>
+				      </div>
+				    </form>
+				  </div>
+
+				  <div class="row facebook col s12">
+				  	
+				  </div>
+
+				</div> <!--	FIM DO CONTEÚDO A DIREITA -->	
+		    </div> <!--	FIM DO CONTAINER-GERAL -->	
+		</div> <!--	FIM DA ROW PRINCIPAL LA DE CIMA -->	
+
+        <footer class="page-footer rodape cyan darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright oBrunoCabral
+            <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/bruno-cabral-b8aa1365/">Linkedin</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+
+
 		
 
 		
