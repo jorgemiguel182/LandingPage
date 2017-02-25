@@ -20,11 +20,15 @@
 
 .hero {
 	margin: 0 auto;
-	max-width: 110%;
+	max-width: 100%;
 }
 
 .container-geral {
 	margin-top: 20px;
+}
+
+.container-mobile {
+	margin-left:8%;
 }
 
 .conteudo-princ {
@@ -37,6 +41,10 @@
 
 .formulario {
 	background-color: #ffffff;
+}
+
+.form-mobile {
+	max-height: 50px;
 }
 
 .facebook {
@@ -78,6 +86,19 @@
 
 .rodape {
 	margin-top: 150px;
+	margin-bottom: 30px;
+}
+
+.rodape-mobile {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#fb-root {
+  display: none;
+}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
 }
 
 body {
@@ -92,5 +113,10 @@ hr {
 p {
 	text-align: justify;
 	margin: 10px;
+}
+
+li a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
