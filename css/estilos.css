@@ -35,10 +35,6 @@
 	background-color: #ffffff;
 }
 
-.aside {
-	background-color: #b2ebf2;
-}
-
 .formulario {
 	background-color: #ffffff;
 }
@@ -54,11 +50,22 @@
 	background-color: #ffffff;
 }
 
+.twitter {
+	margin-top: 20px;
+	max-width: 100%;
+	height: 200px;
+	background-color: #ffffff;
+}
+
+.twitter-timeline {
+	width: 100% !important;  
+
+}
+
 .paciente-img {
 	height: 100%;
-	display: inline-block;
-	vertical-align: middle;
 	border-radius: 1%;
+	margin-top: 15%;
 }
 
 
@@ -81,7 +88,7 @@
 }
 
 .botao {
-	margin: 0 auto;
+	margin-left: 45px;
 }
 
 .rodape {
@@ -94,6 +101,10 @@
 	margin-bottom: 30px;
 }
 
+.titulo-aside {
+	height: 40px;
+}
+
 #fb-root {
   display: none;
 }
@@ -103,6 +114,10 @@
 
 body {
 	background-color: #eceff1;
+}
+
+h5 {
+	padding-top: 5px;
 }
 
 hr {
